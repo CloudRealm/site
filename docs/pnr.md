@@ -9,7 +9,7 @@ Learn how to get your phone number working on iMessage. The app will default to 
 You can also choose to skip logging in with Apple Account. This may lead to less issues in some cases.
 
 ## Pre-Setup | Do this first
-Make sure iMessage andFacetime is disabled on your iPhone. You also need to disable Advanced Data Protection and Contact Key Verification.
+Make sure you are not signed into a Apple Account. Disable iMessage and Facetime on your phone. You also need to disable Advanced Data Protection and Contact Key Verification.
 
 ## Sim / eSim Swaping Methods
 
