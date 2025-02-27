@@ -29,9 +29,10 @@ Guide 1 - TrollStore
 1. Install TrollStore on your device (iOS 14 - iOS 17.0) - [TrollStore Guide](https://ios.cfw.guide/installing-trollstore/)
 2. If you have TestFlight installed, delete it.
 3. Sideload JJTech's - [Validation Relay App](https://github.com/JJTech0130/ValidationRelay/releases) TIPA file in TrollStore.
-4. Input the code from the relay app in OpenBubbles (if you are changing from existing hardware, go to Settings -> Change Hardware).
-5. Enable Keep Awake and Dim Display
-6.  Optional Steps  - If you are jailbroken you can install the following tweaks (may not be compatible with your iOS version):
+4. For best results, sign out of any Apple ID on the device.
+5. Input the code from the relay app in OpenBubbles (if you are changing from existing hardware, go to Settings -> Change Hardware).
+6. Enable Keep Awake and Dim Display
+7.  Optional Steps  - If you are jailbroken you can install the following tweaks (may not be compatible with your iOS version):
     * [AdvancedBrightnessSlider](https://havoc.app/package/advancedbright) to lower the risk of screen burn in
     * [ChargeLimiter](https://github.com/lich4/ChargeLimiter?tab=readme-ov-file#Introduction) to limit charge of the battery
     * [Immortalizer](https://havoc.app/package/immortalizer) to keep the relay app in the active while the screen is off.
@@ -43,7 +44,8 @@ If you are on older iOS versions (10 - 14) and jailbroken follow these steps:
 1. Download Copperboy100's - [RelayServer](https://github.com/OpenBubbles/relayserver/releases). -arm is for iOS 10 - 14 (rootful), -arm64 is for iOS 15 - 16.5 (rootless)
 2. Install RelayServer 
 3. Retrieve the relay code in /var/mobile/config.json. You can find this using an app like Filza.
-4. Input the code from the relay app in OpenBubbles (if you are changing from existing hardware, go to Settings -> Change Hardware).
+4. For best results, sign out of any Apple ID on the device.
+5. Input the code from the relay app in OpenBubbles (if you are changing from existing hardware, go to Settings -> Change Hardware).
 
 ## DO NOT USE
 ~~[ThatMarcel's beepserv-rewrite](https://github.com/thatmarcel/beepserv-rewrite)~~
