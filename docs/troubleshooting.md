@@ -2,6 +2,7 @@
 
 ## My contacts aren't showing
 When you first install OpenBubbles, your contacts may not be properly displayed. In order to fix this, restart your phone.
+
 The windows app currently does not show contacts. As an alternative, you can use the "Change Chat Avatar" option in the details page of your chat to identify your contacts.
 
 
