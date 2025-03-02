@@ -26,9 +26,10 @@ Access the Find My page from the top 3 dots on the main screen. If no Find My op
 * Receiving shared locations through Find My and iMessage is supported
 * Tracking other devices is supported
 
-### FaceTime
+### FaceTime Web
 
-Incoming FaceTime calls should ring automatically. You can see recent FaceTime calls or place one yourself by opening the FaceTime under the three-dot menu.
+Incoming FaceTime calls should ring automatically. You can see recent FaceTime calls or place one yourself by opening the FaceTime under the three-dot menu. 
+SharePlay and screen sharing aren't available in FaceTime on the web.
 
 ### Shared albums
 You can only contribute media to shared albums you are invited to. Creating shared albums is not supported at the moment.
