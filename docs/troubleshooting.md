@@ -18,6 +18,7 @@ This means you are throttled by Apple. Wait a few hours/days and try again.
 * Running clear identity cache (Go to Settings -> Developer Tools) - This may help with sending messages.
 * Make sure iMessage and Facetime is disabled and you are logged out of iCloud if you are using an iPhone.
 * You are deregistered - Check your registration status and renewal time in your profile settings and check your registration method and try again.
+* Start a new conversation with contact
 * Advanced Data Protection is enabled - Disable this option
 * Contact Key Verification is enabled - Disable this option
 * Your Apple Account/Hardware has been throttled/banned/blocked by Apple - Visit this [site](https://rentry.org/applebans) to learn more. You may need to create a new account.
