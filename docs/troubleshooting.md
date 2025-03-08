@@ -22,6 +22,7 @@ This means you are throttled by Apple. Wait a few hours/days and try again.
 * Advanced Data Protection is enabled - Disable this option
 * Contact Key Verification is enabled - Disable this option
 * Your Apple Account/Hardware has been throttled/banned/blocked by Apple - Visit this [site](https://rentry.org/applebans) to learn more. You may need to create a new account.
+* Make sure your iDevice can use iMessage. If your device cannot use iMessage, OpenBubbles will not work.
 
 Contact us on [Discord](https://discord.gg/98fWS4AQqN) if issues persist.
 
@@ -31,6 +32,7 @@ Contact us on [Discord](https://discord.gg/98fWS4AQqN) if issues persist.
 
 ## I am having issues logging into my Apple Account
 To potentially resolve this issue, go to https://account.apple.com/, and delete any duplicate devices and try again. 
+
 OpenBubbles does not support login via app-specific passwords and hardware keys 
 Please use a email and password to login.
 
@@ -51,7 +53,7 @@ This indicates OpenBubbles could not verify the identity of the sender when the 
 * You are being rate-limited by Apple
 * \[Highly unlikely\] An attacker has compromised APS (but not the keyserver) and is attempting to send a message from an identity that isn't theirs.
 
-
-
+## Mac-Hardware-Info does not work
+* Update to High Sierra or newer, if your device does not compatible with newer versions of MacOS visit https://dortania.github.io/OpenCore-Legacy-Patcher/ to see how to update to a newer version of MacOS.
 
 
