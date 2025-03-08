@@ -30,7 +30,7 @@ Contact us on [Discord](https://discord.gg/98fWS4AQqN) if issues persist.
 
 ## I am having issues logging into my Apple Account
 To potentially resolve this issue, go to https://account.apple.com/, and delete any duplicate devices and try again. 
-OpenBubbles does not support logging in with app-specific passwords and hardware keys 
+OpenBubbles does not support login via app-specific passwords and hardware keys 
 Please use a email and password to login.
 
 ## Debug relay issues (device offline/code not found)
