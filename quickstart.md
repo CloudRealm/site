@@ -44,7 +44,7 @@ Get all OpenBubbles features (including turning your Android phone number into a
 Now available! Choose "Hosted" during setup, for a $10/mo subscription fee and a 7-day trial.
 </div>
 <div v-else>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSf0psSFctObU_2Ib44H4WZlXhwpy-nLWy-jteYExWgKZ_mnhg/viewform?usp=header">Join the waitlist</a>
+<a href="/waitlist.html">Join the waitlist</a>
 </div>
 
 ## Self-managed
