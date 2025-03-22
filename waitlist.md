@@ -6,6 +6,10 @@ next: false
 aside: false
 outline: false
 
+head:
+  - - script
+    - src: https://challenges.cloudflare.com/turnstile/v0/api.js
+
 ---
 
 <script setup>
@@ -67,6 +71,8 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 <label for="badprice">Let me know when it's cheaper</label><br>
 
 <input type="number" name="price" id="price" style="display: none;"  class="myinput" placeholder="Preferred price ($USD)">
+
+<div style="margin-top: 10px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
 
 <input type="submit" value="Join waitlist">
 </form>
