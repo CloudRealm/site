@@ -42,7 +42,8 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
         border: solid 1px var(--vp-button-alt-bg);
         border-radius: 10px;
         width: 100%;
-        margin: 10px 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
     input[type=radio] {
         margin-right: 10px;
@@ -57,7 +58,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
         background-color: var(--vp-button-brand-bg);
         color: var(--vp-button-brand-text);
         cursor: pointer;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 </style>
 
@@ -72,7 +73,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 
 <input type="number" name="price" id="price" style="display: none;"  class="myinput" placeholder="Preferred price ($USD)">
 
-<div style="margin-top: 10px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
+<div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
 
 <input type="submit" value="Join waitlist">
 </form>
