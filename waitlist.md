@@ -64,7 +64,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 
 <form action="https://hw.openbubbles.app/waitlist" method="POST">
 <label for="emailimp">Email</label>
-<input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput"/><br>
+<input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/><br>
 
 <input type="radio" id="priceokay" name="price_okay" value="okay" checked>
 <label for="priceokay">I'm okay with $10/mo USD</label><br>
