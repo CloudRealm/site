@@ -67,7 +67,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 <input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/><br>
 
 <input type="radio" id="priceokay" name="price_okay" value="okay" checked>
-<label for="priceokay">I'm okay with $10/mo USD</label><br>
+<label for="priceokay">I'm okay with $9.99/mo USD</label><br>
 <input type="radio" id="badprice" name="price_okay" value="none">
 <label for="badprice">Let me know when it's cheaper</label><br>
 
