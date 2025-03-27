@@ -59,6 +59,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
         color: var(--vp-button-brand-text);
         cursor: pointer;
         margin-top: 15px;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 </style>
 
