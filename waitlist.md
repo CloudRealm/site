@@ -26,7 +26,7 @@ head:
 
 # Hosted waitlist
 
-Get all OpenBubbles features (including turning your Android phone number into a blue bubble) without the need of an iPhone or other Apple device. Monthly subscription is required.
+Get all OpenBubbles features (including turning your Android phone number into a blue bubble) without the need of an iPhone or other Apple device. $9.99/mo with a 7-day free trial.
 
 If you don't want to pay, you can host the software yourself on an iPhone: [Activation Instructions](https://openbubbles.app/quickstart.html#activate-openbubbles)
 
@@ -68,7 +68,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 <input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/><br>
 
 <input type="radio" id="priceokay" name="price_okay" value="okay" checked>
-<label for="priceokay">I'm okay with $9.99/mo USD</label><br>
+<label for="priceokay">I'm okay with a 7-day free trial, then $9.99/mo USD</label><br>
 <input type="radio" id="badprice" name="price_okay" value="none">
 <label for="badprice">Let me know when it's cheaper</label><br>
 
