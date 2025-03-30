@@ -35,6 +35,7 @@ Apple **requires** hardware info from genuine Apple hardware to use iMessage. Su
 ## Install OpenBubbles
 <a href="https://play.google.com/store/apps/details?id=com.openbubbles.messaging"><img src="/google_play_badge.png" class="getbtn" /></a>
 <a href="https://apps.microsoft.com/store/detail/9PJMSNSQD0FV"><img src="/get-ms.svg" class="getbtn" /></a>
+<a href="https://flathub.org/apps/app.openbubbles.OpenBubbles"><img src="/badge-flathub.svg" class="getbtn" /></a>
 
 ## Hosted (monthly subscription)
 
