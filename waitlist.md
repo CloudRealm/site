@@ -72,7 +72,7 @@ If you don't want to pay, you can host the software yourself on an iPhone: [Acti
 <input type="radio" id="badprice" name="price_okay" value="none">
 <label for="badprice">Let me know when it's cheaper</label><br>
 
-<input type="number" name="price" id="price" style="display: none;"  class="myinput" placeholder="Preferred price ($USD)">
+<input type="number" name="price" id="price" style="display: none;"  class="myinput" placeholder="Preferred price ($USD)" min="3">
 
 <div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
 
