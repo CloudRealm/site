@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Self-host', link: '/quickstart' },
-      { text: 'Docs', link: '/docs/faq' }
+      { text: 'FAQ & docs', link: '/docs/faq' }
     ],
 
     footer: {
