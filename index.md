@@ -17,7 +17,7 @@ head:
 hero:
   name: "OpenBubbles"
   text: "Finally, be a blue bubble on Android"
-  tagline: iMessage + FaceTime and more on your Android number
+  tagline: iMessage + FaceTime and more for your Android number
   image:
     src: /MessagesDesktop-joined3.png
     alt: OpenBubbles
