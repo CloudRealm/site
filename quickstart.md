@@ -8,16 +8,6 @@ outline: false
 
 ---
 
-<script setup>
-    import { ref, onMounted } from 'vue'
-
-    const subscriptionAvailable = ref(false)
-    onMounted(async () => {
-        const res = await fetch('https://hw.openbubbles.app/status');
-        subscriptionAvailable.value = (await res.json()).available
-    })
-</script>
-
 <style>
     .getbtn {
         height: 50px;
@@ -26,7 +16,7 @@ outline: false
     }
 </style>
 
-# Quickstart
+# Self-host quickstart
 
 ::: tip
 Apple **requires** hardware info from genuine Apple hardware to use iMessage. Subscriptions coming soon. OpenBubbles works **best** with a Mac.
@@ -37,18 +27,9 @@ Apple **requires** hardware info from genuine Apple hardware to use iMessage. Su
 <a href="https://apps.microsoft.com/store/detail/9PJMSNSQD0FV"><img src="/get-ms.svg" class="getbtn" /></a>
 <a href="https://flathub.org/apps/app.openbubbles.OpenBubbles"><img src="/badge-flathub.svg" class="getbtn" /></a>
 
-## Hosted (monthly subscription)
 
-Get all OpenBubbles features (including turning your Android phone number into a blue bubble) without the need of an iPhone.
 
-<div v-if="subscriptionAvailable">
-Now available! Choose "Hosted" during setup, for a $10/mo subscription fee and a 7-day trial.
-</div>
-<div v-else>
-<a href="/waitlist.html">Join the waitlist</a>
-</div>
-
-## Self-managed
+## Activate OpenBubbles
 
 ### With a Mac
 

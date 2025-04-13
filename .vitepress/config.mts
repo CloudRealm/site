@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Quickstart', link: '/quickstart' },
+      { text: 'Self-host', link: '/quickstart' },
       { text: 'Docs', link: '/docs/faq' }
     ],
 

@@ -1,80 +1,12 @@
 ---
-sidebar: false
+layout: false
 
-prev: false
-next: false
-aside: false
-outline: false
-
+# redirect to homepage
 head:
-  - - script
-    - src: https://challenges.cloudflare.com/turnstile/v0/api.js
-
+  - - link
+    - rel: canonical
+      href: /#hosted-waitlist
+  - - meta
+    - http-equiv: refresh
+      content: 0; URL=/#hosted-waitlist
 ---
-
-<script setup>
-    import { ref, onMounted } from 'vue'
-    import { useRouter } from 'vitepress'
-
-    onMounted(async () => {
-        const res = await fetch('https://hw.openbubbles.app/status');
-        if ((await res.json()).available) {
-            useRouter().go("/quickstart.html#hosted-monthly-subscription")
-        }
-    })
-</script>
-
-# Hosted waitlist
-
-Get all OpenBubbles features (including turning your Android phone number into a blue bubble) without the need of an iPhone or other Apple device. $9.99/mo with a 7-day free trial.
-
-If you don't want to pay, you can host the software yourself on an iPhone: [Activation Instructions](https://openbubbles.app/quickstart.html#activate-openbubbles)
-
-<style>
-    label {
-        font-weight: 500;
-    }
-    #badprice:checked ~ #price {
-        display: block !important;
-    }
-    .myinput {
-        padding: 10px;
-        border: solid 1px var(--vp-button-alt-bg);
-        border-radius: 10px;
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 15px;
-    }
-    input[type=radio] {
-        margin-right: 10px;
-    }
-    input[type=submit] {
-        padding: 0 20px;
-        line-height: 38px;
-        border: none;
-        border-radius: 20px;
-        font-size: 14px;
-        font-weight: 600;
-        background-color: var(--vp-button-brand-bg);
-        color: var(--vp-button-brand-text);
-        cursor: pointer;
-        margin-top: 15px;
-        font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    }
-</style>
-
-<form action="https://hw.openbubbles.app/waitlist" method="POST">
-<label for="emailimp">Email</label>
-<input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/><br>
-
-<input type="radio" id="priceokay" name="price_okay" value="okay" checked>
-<label for="priceokay">I'm okay with a 7-day free trial, then $9.99/mo USD</label><br>
-<input type="radio" id="badprice" name="price_okay" value="none">
-<label for="badprice">Let me know when it's cheaper</label><br>
-
-<input type="number" name="price" id="price" style="display: none;"  class="myinput" placeholder="Preferred price ($USD)" min="3">
-
-<div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
-
-<input type="submit" value="Join waitlist">
-</form>
