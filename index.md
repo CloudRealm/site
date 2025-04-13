@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: Get blue bubbles on Android
+title: Be a blue bubble on Android
 
 head:
   - - meta
