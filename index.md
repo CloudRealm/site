@@ -105,12 +105,12 @@ features:
 }
 
 .footer h3 {
-  margin: 25px 0;
-  font-weight: 400;
+  margin: 25px 0 !important;
+  font-weight: 400 !important;
 }
 
 .footer a {
-  text-decoration: inherit;
+  text-decoration: inherit !important;
 }
 
 .background {
