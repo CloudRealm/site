@@ -88,7 +88,7 @@ features:
 
 .footer {
   padding: 200px 10px;
-  padding-top: 150px;
+  padding-top: 50px;
   text-align: center;
   display: block;
   position: relative;
@@ -127,6 +127,8 @@ features:
 
 </style>
 
+<br>
+<br>
 <br>
 <br>
 
