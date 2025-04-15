@@ -172,9 +172,7 @@ features:
     }
 </style>
 
-<script setup>
-  import { ref, onMounted } from 'vue'
-
+<script>
   let turnstilePassed = false;
   window.turnstileReady = (_token) => {
     turnstilePassed = true;
