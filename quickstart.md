@@ -19,7 +19,7 @@ outline: false
 # Self-host quickstart
 
 ::: tip
-Apple **requires** hardware info from genuine Apple hardware to use iMessage. Subscriptions coming soon. OpenBubbles works **best** with a Mac.
+Apple **requires** hardware info from genuine Apple hardware to use iMessage. [Join the waitlist](/#hosted-waitlist) for a ready-to-go hosted solution. OpenBubbles works **best** with a Mac.
 :::
 
 ## Install OpenBubbles

@@ -206,7 +206,7 @@ features:
 <input type="submit" value="Join waitlist">
 </form>
 
-There will be a monthly fee for OpenBubbles Hosted. <a href="/quickstart.html#activate-openbubbles">Self-host now for free.</a>
+There will be a monthly fee for OpenBubbles Hosted. <a href="/quickstart.html">Self-host now for free.</a>
 <div class="background" />
 </div>
 
