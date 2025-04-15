@@ -175,19 +175,13 @@ features:
 <script setup>
   import { ref, onMounted } from 'vue'
 
-  const isClient = ref(false)
-
-  onMounted(() => {
-    isClient.value = true
-  })
-
   let turnstilePassed = false;
   window.turnstileReady = (_token) => {
     turnstilePassed = true;
     setTimeout(() => turnstilePassed = false, 300 * 1000);
   }
 
-  function checkTurnstile(event) {
+  window.checkTurnstile = (event) => {
     if (!turnstilePassed) {
       event.preventDefault();
       alert("Please verify you are human before submitting.");
@@ -200,7 +194,8 @@ features:
     <h1>Join the waitlist!</h1>
     <h3>Turn your Android phone number into a blue bubble without the need of an iPhone or other Apple device.</h3>
 
-<form v-if="isClient" action="https://hw.openbubbles.app/waitlist" method="POST" @submit="checkTurnstile">
+<!-- Intentionally not using vue events, because then that triggers hydration which breaks the turnstile -->
+<form action="https://hw.openbubbles.app/waitlist" method="POST" onsubmit="checkTurnstile">
 <label for="emailimp">Email</label>
 <input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/>
 
