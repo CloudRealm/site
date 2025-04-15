@@ -85,7 +85,7 @@ features:
 }
 
 .footer {
-  padding: 200px 10px;
+  padding: 100px 10px;
   padding-top: 50px;
   text-align: center;
   display: block;
