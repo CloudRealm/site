@@ -172,19 +172,33 @@ features:
     }
 </style>
 
+<script setup>
+  let turnstilePassed = false;
+  window.turnstileReady = (_token) => {
+    turnstilePassed = true;
+  }
+
+  function checkTurnstile(event) {
+    if (!turnstilePassed) {
+      event.preventDefault();
+      alert("Please verify you are human before submitting.");
+    }
+  }
+</script>
+
 <div class="footer" id="hosted-waitlist">
   <img src="/icon.png" />
     <h1>Join the waitlist!</h1>
     <h3>Turn your Android phone number into a blue bubble without the need of an iPhone or other Apple device.</h3>
 
-<form action="https://hw.openbubbles.app/waitlist" method="POST">
+<form action="https://hw.openbubbles.app/waitlist" method="POST" @submit="checkTurnstile">
 <label for="emailimp">Email</label>
 <input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/>
 
 <input type="hidden" name="price_okay" value="okay">
 <input type="hidden" name="price" value="">
 
-<div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W"></div>
+<div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W" data-callback="turnstileReady"></div>
 
 <input type="submit" value="Join waitlist">
 </form>
