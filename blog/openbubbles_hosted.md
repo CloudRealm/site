@@ -35,6 +35,8 @@ To provide an easy, turnkey solution, we created OpenBubbles **hosted**. For a m
 
 ## Our activation process
 
+![Activation Diagram](./OpenBubbles%20diagram.png)
+
 ### Hello Oasis
 When you open OpenBubbles for the first time, it reaches out to our server, Oasis, to check if there is hosted capacity available. Since we're currently running a waitlist, the answer will always be no, unless you have a waitlist invite code.
 
