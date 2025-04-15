@@ -11,8 +11,6 @@ head:
   - - meta
     - http-equiv: Content-Language
       content: en
-  - - script
-    - src: https://challenges.cloudflare.com/turnstile/v0/api.js
 
 hero:
   name: "OpenBubbles"
@@ -170,19 +168,23 @@ features:
       padding: 20px;
       border-radius: 10px;
     }
+
+    /* input.hidden {
+      opacity: 0;
+      width: 0;
+    } */
 </style>
 
-<script>
-  let turnstilePassed = false;
-  window.turnstileReady = (_token) => {
-    turnstilePassed = true;
-    setTimeout(() => turnstilePassed = false, 300 * 1000);
-  }
+<script setup>
+  import VueTurnstile from 'vue-turnstile';
+  import { ref } from 'vue';
 
-  window.checkTurnstile = (event) => {
-    if (!turnstilePassed) {
+  let turnstileToken = ref("");
+
+  function checkTurnstile(event) {
+    if (turnstileToken.value == "" || turnstileToken.value == null) {
       event.preventDefault();
-      alert("Please verify you are human before submitting.");
+      alert("Please verify you're human.");
     }
   }
 </script>
@@ -192,15 +194,14 @@ features:
     <h1>Join the waitlist!</h1>
     <h3>Turn your Android phone number into a blue bubble without the need of an iPhone or other Apple device.</h3>
 
-<!-- Intentionally not using vue events, because then that triggers hydration which breaks the turnstile -->
-<form action="https://hw.openbubbles.app/waitlist" method="POST" onsubmit="checkTurnstile">
+<form action="https://hw.openbubbles.app/waitlist" method="POST" @submit="checkTurnstile">
 <label for="emailimp">Email</label>
 <input type="email" name="email" id="emailimp" placeholder="Enter email here" class="myinput" required/>
 
 <input type="hidden" name="price_okay" value="okay">
 <input type="hidden" name="price" value="">
 
-<div style="margin-top: 15px" class="cf-turnstile" data-sitekey="0x4AAAAAABB_VM-Rvy-vlB1W" data-callback="turnstileReady"></div>
+<vue-turnstile style="margin-top: 15px" site-key="0x4AAAAAABB_VM-Rvy-vlB1W" v-model="turnstileToken"></vue-turnstile>
 
 <input type="submit" value="Join waitlist">
 </form>
