@@ -10,7 +10,7 @@ outline: false
 # How OpenBubbles Hosted Works
 April 15 2025
 
-<div style="font-weight: 600; font-size: 24px; padding: 5px 0;">A techincal overview</div>
+<div style="font-weight: 600; font-size: 24px; padding: 5px 0;">A technical overview</div>
 
 At OpenBubbles, we want to make sure you can trust the software you use, especially for something as sensitive and critical as a chat app.
 
