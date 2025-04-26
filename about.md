@@ -14,6 +14,14 @@ outline: false
     data.isDark.value = true;
 </script>
 
+# About
+
+To learn more our app, [visit our homepage](/) or [check out the FAQ](/docs/faq.md)
+
+To learn about how OpenBubbles works, check out:
+* [How OpenBubbles Hosted Works](/blog/openbubbles_hosted.md)
+* [How Beeper Mini Works](https://blog.beeper.com/2023/12/05/how-beeper-mini-works/comment-page-1/) (We follow the same principles)
+* [The source code](https://github.com/OpenBubbles/openbubbles-app)
 
 # Would you **_see it?_**
 
@@ -25,7 +33,7 @@ It's a **good, normal person** who isn't fully aware of what they are doing. The
 
 It **doesn't have to be physical or even spoken**. It just has to be a **clear and consistent message**
 
-#### You deserve to be treated with respect and kindness. Unwarranted, recurring hostility in the classroom or workplace _is bullying and is never acceptable_.
+#### You deserve to be treated with respect and kindness. Unwarranted, recurring, and targeted hostility in the classroom or workplace _is bullying and is never acceptable_.
 
 **Anyone can be a victim.** **Anyone can be a perpetrator.** If something is happening, know there is **no excuse, especially if society has normalized the behavior outside a group.** You are **not the problem.** They **don't have to treat you this way.** It **won't fix itself.**
 
